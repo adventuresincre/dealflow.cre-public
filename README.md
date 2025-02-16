@@ -1,11 +1,11 @@
-# DealFlow.CRE Public Repository
+# Pipe.CRE Public Repository
 
 ## 📌 Overview
-This repository contains standardized **commercial real estate (CRE) investment data**, best practices, and open resources for deal tracking, underwriting, and analysis.
+**Pipe.CRE** is a sourcing, underwriting, and deal tracking platform for commercial real estate investments. This repository contains standardized investment data, best practices, and open resources for deal analysis.
 
 ## 📂 Key Files
 ### **1️⃣ attributes.xlsx** (🔄 Version-tracked)
-This file contains all **attribute-related data** for DealFlow.CRE, ensuring consistency and standardization across the platform.
+Centralized attribute data for **Pipe.CRE**, ensuring standardization across the platform.
 
 #### 📋 **Worksheets:**
 - **`deal_attributes`** – Defines core attributes for **Deals** (in development).  
@@ -18,8 +18,8 @@ Defines how addresses are **standardized using Google Maps API** and how **Metro
 ### **3️⃣ selection_list_protocol.md**
 Explains how **data validation lists** are structured and maintained within **`attribute_selections`** in `attributes.xlsx`.
 
-### **4️⃣ Census Delineation Files)**
-A **separate dataset** mapping **counties to MSAs** based on **U.S. Census Bureau** data found here: https://www.census.gov/geographies/reference-files/time-series/demo/metro-micro/delineation-files.html
+### **4️⃣ Census Delineation Files (Coming Soon)**
+A **separate dataset** mapping **counties to MSAs** based on **U.S. Census Bureau** data.
 
 ---
 
@@ -27,4 +27,4 @@ A **separate dataset** mapping **counties to MSAs** based on **U.S. Census Burea
 - **Developers & Analysts**: Use **`attributes.xlsx`** as the standard for deal tracking.
 - **Contributors**: Open an **Issue** or submit a **Pull Request** if updates are needed.
 
-For questions, open an issue in this repository! 🚀
+For more information, visit **[PipeCRE.com](https://PipeCRE.com)** or access the app at **[app.pipecre.com](https://app.pipecre.com)**. 🚀
