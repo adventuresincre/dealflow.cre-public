@@ -4,7 +4,7 @@
 This repository serves **two primary initiatives**:  
 
 1️⃣ **Pipe.CRE** – A sourcing, underwriting, and deal tracking platform for commercial real estate investments.  
-2️⃣ **CRE Data Standards Initiative (CDSI)** – A collaboration between the **A.CRE team ([AdventuresinCRE.com](https://www.adventuresincre.com))** and the **Pipe.CRE team**, aimed at **standardizing CRE attributes** for use in frameworks, software, and AI agents.  
+2️⃣ **CRE Data Standards Initiative (CDSI)** – A collaboration between the **A.CRE team ([AdventuresinCRE.com](https://www.adventuresincre.com))** and the **Pipe.CRE team ([PipeCRE.com](https://www.pipecre.com))**, aimed at **standardizing CRE attributes** for use in frameworks, software, and AI agents.  
 
 ---
 
