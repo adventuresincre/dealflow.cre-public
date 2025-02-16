@@ -1,7 +1,7 @@
 # Address & Metropolitan Statistical Area (MSA) Protocol
 
 ## 📌 Overview
-This document outlines how **DealFlow.CRE** standardizes addresses and assigns Metropolitan Statistical Areas (MSAs) to properties using reliable geographic data.
+This document outlines how **Pipe.CRE** standardizes addresses and assigns Metropolitan Statistical Areas (MSAs) to properties using reliable geographic data.
 
 ## 📍 Address Standardization
 We use **Google's Geocoding API** to ensure that all addresses are **consistent, properly formatted, and enriched with geographic metadata**.
