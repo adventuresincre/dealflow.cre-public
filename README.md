@@ -1,4 +1,4 @@
-# Pipe.CRE & CRE Data Standards Initiative (CDSI) Public Repository
+# Pipe.CRE Public Repository
 
 ## 📌 Overview
 This repository serves **two primary initiatives**:  
