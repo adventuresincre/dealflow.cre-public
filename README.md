@@ -1,30 +1,49 @@
-# Pipe.CRE Public Repository
+# Pipe.CRE & CRE Data Standards Initiative (CDSI) Public Repository
 
 ## 📌 Overview
-**Pipe.CRE** is a sourcing, underwriting, and deal tracking platform for commercial real estate investments. This repository contains standardized investment data, best practices, and open resources for deal analysis.
+This repository serves **two primary initiatives**:  
 
-## 📂 Key Files
-### **1️⃣ attributes.xlsx** (🔄 Version-tracked)
-Centralized attribute data for **Pipe.CRE**, ensuring standardization across the platform.
+1️⃣ **Pipe.CRE** – A sourcing, underwriting, and deal tracking platform for commercial real estate investments.  
+2️⃣ **CRE Data Standards Initiative (CDSI)** – A collaboration between the **A.CRE team ([AdventuresinCRE.com](https://www.adventuresincre.com))** and the **Pipe.CRE team**, aimed at **standardizing CRE attributes** for use in frameworks, software, and AI agents.  
 
-#### 📋 **Worksheets:**
-- **`deal_attributes`** – Defines core attributes for **Deals** (in development).  
-- **`attribute_selections`** – Predefined **data validation lists** (e.g., `Deal_Status`).  
-- **`glide_input_types_2.16.2025`** – Glide’s **input types** as of **2.16.2025**.
+---
 
-### **2️⃣ address_msa_protocol.md**
-Defines how addresses are **standardized using Google Maps API** and how **Metropolitan Statistical Areas (MSAs)** are assigned based on **Census Delineation Files**.
+## 📂 Key Sections
 
-### **3️⃣ selection_list_protocol.md**
-Explains how **data validation lists** are structured and maintained within **`attribute_selections`** in `attributes.xlsx`.
+### 🔹 **Pipe.CRE Resources**
+These files focus on **Pipe.CRE’s proprietary deal-tracking methodologies** and data structures.
 
-### **4️⃣ Census Delineation Files (Coming Soon)**
-A **separate dataset** mapping **counties to MSAs** based on **U.S. Census Bureau** data.
+| **File** | **Description** |
+|----------|---------------|
+| `address_msa_protocol.md` | Defines how addresses are standardized and mapped to MSAs. |
+| `selection_list_protocol.md` | Explains structured attribute selections used in deal tracking. |
+| `Census Delineation Files (Coming Soon)` | Data mapping counties to MSAs per U.S. Census Bureau. |
+
+---
+
+### 🔹 **CRE Data Standards Initiative (CDSI)**
+📍 The **CDSI** project is dedicated to defining **standardized attributes** for commercial real estate, supporting structured data adoption across platforms.
+
+**CDSI Files (Located in `/cdsi/` Folder)**  
+
+| **File** | **Description** |
+|----------|---------------|
+| `/cdsi/attributes.xlsx` | Master dataset of standardized CRE attributes. |
+| `/cdsi/property_types.csv` | Standardized property classifications (e.g., Office, Industrial, Retail). |
+| `/cdsi/attribute_selections.csv` | Predefined lists for structured attributes (e.g., Deal_Status options). |
+| `/cdsi/address_msa_protocol.md` | Guidelines for geographic classification. |
+| `/cdsi/credits.md` | Project acknowledgments & license details. |
 
 ---
 
 ## ✅ How to Use
-- **Developers & Analysts**: Use **`attributes.xlsx`** as the standard for deal tracking.
-- **Contributors**: Open an **Issue** or submit a **Pull Request** if updates are needed.
+- **Developers & Analysts**: Use **CDSI attributes** (`attributes.xlsx`) to standardize CRE data across applications.  
+- **Pipe.CRE Users**: Leverage **Pipe.CRE-specific resources** for deal tracking.  
+- **Contributors**: Open an **Issue** or submit a **Pull Request** if updates are needed.  
 
-For more information, visit **[PipeCRE.com](https://PipeCRE.com)** or access the app at **[app.pipecre.com](https://app.pipecre.com)**. 🚀
+📌 **CDSI is provided under the [Creative Commons Zero (CC0)](https://creativecommons.org/publicdomain/zero/1.0/) license, making it open for industry adoption.**  
+
+For more information:  
+🌐 **[PipeCRE.com](https://PipeCRE.com)** (Pipe.CRE Platform)  
+🌐 **[AdventuresinCRE.com](https://www.adventuresincre.com)** (A.CRE Team)  
+🚀 **[app.pipecre.com](https://app.pipecre.com)** (Pipe.CRE Application)  
