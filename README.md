@@ -1,23 +1,30 @@
 # DealFlow.CRE Public Repository
 
-Welcome to the **DealFlow.CRE Public Repository**! This repository contains open resources for standardizing commercial real estate (CRE) investment workflows, including:
+## 📌 Overview
+This repository contains standardized **commercial real estate (CRE) investment data**, best practices, and open resources for deal tracking, underwriting, and analysis.
 
-✅ **Investment Attributes Catalog** – A standardized list of key data points for sourcing, underwriting, and tracking deals.  
-✅ **Best Practices & Documentation** – Guides for structuring deal data, performing comp analysis, and improving investment decision-making.  
-✅ **Templates & Resources** (Coming Soon) – Open-source tools to streamline CRE deal tracking.
+## 📂 Key Files
+### **1️⃣ attributes.xlsx** (🔄 Version-tracked)
+This file contains all **attribute-related data** for DealFlow.CRE, ensuring consistency and standardization across the platform.
 
-## 🚀 How to Use
-- The **Investment Attributes Catalog** can be used to standardize deal data across CRE platforms.
-- Contributions & feedback are welcome! Open an issue or submit a pull request.
+#### 📋 **Worksheets:**
+- **`deal_attributes`** – Defines core attributes for **Deals** (in development).  
+- **`attribute_selections`** – Predefined **data validation lists** (e.g., `Deal_Status`).  
+- **`glide_input_types_2.16.2025`** – Glide’s **input types** as of **2.16.2025**.
 
-## 📄 License
-This repository is released under the **Creative Commons Zero v1.0 Universal (CC0)** license.  
+### **2️⃣ address_msa_protocol.md**
+Defines how addresses are **standardized using Google Maps API** and how **Metropolitan Statistical Areas (MSAs)** are assigned based on **Census Delineation Files**.
 
-For full details, see the **[LICENSE](LICENSE)** file.
+### **3️⃣ selection_list_protocol.md**
+Explains how **data validation lists** are structured and maintained within **`attribute_selections`** in `attributes.xlsx`.
+
+### **4️⃣ Census Delineation Files)**
+A **separate dataset** mapping **counties to MSAs** based on **U.S. Census Bureau** data found here: https://www.census.gov/geographies/reference-files/time-series/demo/metro-micro/delineation-files.html
 
 ---
 
-🎯 **Next Steps**
-- [ ] Upload the **Investment Attributes Catalog** (`attributes.md` or `.csv`).
-- [ ] Add any additional documentation (if needed).
-- [ ] Share the repo link to start industry adoption.
+## ✅ How to Use
+- **Developers & Analysts**: Use **`attributes.xlsx`** as the standard for deal tracking.
+- **Contributors**: Open an **Issue** or submit a **Pull Request** if updates are needed.
+
+For questions, open an issue in this repository! 🚀
