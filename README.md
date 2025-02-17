@@ -17,26 +17,28 @@ These files focus on **Pipe.CRE’s proprietary deal-tracking methodologies** an
 |----------|---------------|
 | `address_msa_protocol.md` | Defines how addresses are standardized and mapped to MSAs. |
 | `selection_list_protocol.md` | Explains structured attribute selections used in deal tracking. |
-| `Census Delineation Files (see US Census website)` | For U.S. addresses only. Data mapping counties to MSAs per U.S. Census Bureau. |
+| `Census Delineation Files (Coming Soon)` | Data mapping counties to MSAs per U.S. Census Bureau. |
 
 ---
 
 ### 🔹 **CRE Data Standards Initiative (CDSI)**
 📍 The **CDSI** project is dedicated to defining **standardized attributes** for commercial real estate, supporting structured data adoption across platforms.  
 
-**CDSI Files (Located in `/cdsi/` Folder)**  
+**CDSI Attributes are now managed in a publicly viewable Google Sheet:**  
+🔗 **[CDSI Attributes Google Sheet](https://docs.google.com/spreadsheets/d/1U7rQXOVtxO5o12A_n8ILGSXrY5R99MMpb8txbisstGc/edit?usp=sharing)**  
 
-| **File** | **Description** |
-|----------|---------------|
-| `/cdsi/attributes.xlsx` | Master dataset of standardized CRE attributes, including **property attributes, property types, attribute selections, and credits/license details**. |
-| `/cdsi/address_msa_protocol.md` | Guidelines for geographic classification (how metros are assigned using Google Maps API). |
+This sheet includes:
+- **Standardized deal attributes**  
+- **Property type classifications**  
+- **Predefined attribute selections (e.g., `Deal_Status`)**  
+- **Credits & license details**  
 
-📌 **For now, all CDSI protocols are housed within `attributes.xlsx`.**  
+📌 **For now, all CDSI protocols are housed within this Google Sheet.**  
 
 ---
 
 ## ✅ How to Use
-- **Developers & Analysts**: Use **CDSI attributes** (`attributes.xlsx`) to standardize CRE data across applications.  
+- **Developers & Analysts**: Use **CDSI attributes** ([Google Sheet](https://docs.google.com/spreadsheets/d/1U7rQXOVtxO5o12A_n8ILGSXrY5R99MMpb8txbisstGc/edit?usp=sharing)) to standardize CRE data across applications.  
 - **Pipe.CRE Users**: Leverage **Pipe.CRE-specific resources** for deal tracking.  
 - **Contributors**: Open an **Issue** or submit a **Pull Request** if updates are needed.  
 
