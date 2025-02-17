@@ -28,7 +28,7 @@ These files focus on **Pipe.CRE’s proprietary deal-tracking methodologies** an
 
 | **File** | **Description** |
 |----------|---------------|
-| `/cdsi/attributes.xlsx` | Master dataset of standardized CRE attributes, including **property types, attribute selections, and credits/license details**. |
+| `/cdsi/attributes.xlsx` | Master dataset of standardized CRE attributes, including **property attributes, property types, attribute selections, and credits/license details**. |
 | `/cdsi/address_msa_protocol.md` | Guidelines for geographic classification (how metros are assigned using Google Maps API). |
 
 📌 **For now, all CDSI protocols are housed within `attributes.xlsx`.**  
